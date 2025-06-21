@@ -47,7 +47,7 @@
 <br>
 <br>
 
-3. **Discuss which algorithm is more suitable for your platform and why.**
+3. **Most Suitable Algorithm**
 
     For an **e-commerce platform**:
 
