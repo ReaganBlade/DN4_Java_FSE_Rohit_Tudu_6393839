@@ -1,7 +1,8 @@
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class Forecasting {
+// Main Method for Financial Forecasting
+public class Main {
     public static RegressionModel train(ArrayList<Integer> x, ArrayList<Integer> y){
         int size = x.size();
 
