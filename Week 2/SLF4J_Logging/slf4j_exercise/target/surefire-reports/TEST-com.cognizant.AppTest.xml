@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.cognizant.AppTest" time="0.017" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.cognizant.AppTest" time="0.021" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -9,11 +9,12 @@
     <property name="java.vendor.url" value="https://ubuntu.com/"/>
     <property name="os.name" value="Linux"/>
     <property name="java.vm.specification.version" value="17"/>
-    <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-17-openjdk-amd64/lib"/>
-    <property name="sun.java.command" value="/home/ragefire/Desktop/Digital-Nurture-4.0-JavaFSE/DN4_Java_FSE_Rohit_Tudu_6393839/Week 2/SLF4J_Logging/slf4j_exercise/target/surefire/surefirebooter6779172365349621028.jar /home/ragefire/Desktop/Digital-Nurture-4.0-JavaFSE/DN4_Java_FSE_Rohit_Tudu_6393839/Week 2/SLF4J_Logging/slf4j_exercise/target/surefire 2025-06-28T12-51-44_316-jvmRun1 surefire4002460589442362737tmp surefire_013248791259485713355tmp"/>
+    <property name="sun.java.command" value="/home/ragefire/Desktop/Digital-Nurture-4.0-JavaFSE/DN4_Java_FSE_Rohit_Tudu_6393839/Week 2/SLF4J_Logging/slf4j_exercise/target/surefire/surefirebooter11896251368038300568.jar /home/ragefire/Desktop/Digital-Nurture-4.0-JavaFSE/DN4_Java_FSE_Rohit_Tudu_6393839/Week 2/SLF4J_Logging/slf4j_exercise/target/surefire 2025-06-28T17-36-24_780-jvmRun1 surefire5924813374527898645tmp surefire_09949939484786333806tmp"/>
     <property name="jdk.debug" value="release"/>
+    <property name="test" value="com.cognizant.AppTest#shouldAnswerWithTrue"/>
     <property name="surefire.test.class.path" value="/home/ragefire/Desktop/Digital-Nurture-4.0-JavaFSE/DN4_Java_FSE_Rohit_Tudu_6393839/Week 2/SLF4J_Logging/slf4j_exercise/target/test-classes:/home/ragefire/Desktop/Digital-Nurture-4.0-JavaFSE/DN4_Java_FSE_Rohit_Tudu_6393839/Week 2/SLF4J_Logging/slf4j_exercise/target/classes:/home/ragefire/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/ragefire/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/ragefire/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/home/ragefire/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar:/home/ragefire/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/home/ragefire"/>
@@ -27,7 +28,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="/home/ragefire/Desktop/Digital-Nurture-4.0-JavaFSE/DN4_Java_FSE_Rohit_Tudu_6393839/Week 2/SLF4J_Logging/slf4j_exercise/target/surefire/surefirebooter6779172365349621028.jar"/>
+    <property name="surefire.real.class.path" value="/home/ragefire/Desktop/Digital-Nurture-4.0-JavaFSE/DN4_Java_FSE_Rohit_Tudu_6393839/Week 2/SLF4J_Logging/slf4j_exercise/target/surefire/surefirebooter11896251368038300568.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.15+6-Ubuntu-0ubuntu125.04"/>
     <property name="user.name" value="ragefire"/>
@@ -36,6 +37,7 @@
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="maven.ext.class.path" value="/home/ragefire/.vscode/extensions/oracle.oracle-java-24.0.0/nbcode/java/maven-nblib/netbeans-eventspy.jar"/>
     <property name="localRepository" value="/home/ragefire/.m2/repository"/>
     <property name="java.vendor.url.bug" value="https://bugs.launchpad.net/ubuntu/+source/openjdk-17"/>
     <property name="java.io.tmpdir" value="/tmp"/>
