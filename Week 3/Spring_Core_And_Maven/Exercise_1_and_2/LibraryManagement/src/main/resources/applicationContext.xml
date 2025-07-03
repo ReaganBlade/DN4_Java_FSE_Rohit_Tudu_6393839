@@ -5,12 +5,11 @@
         http://www.springframework.org/schema/beans
         http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <!--    Book Repostory Bean-->
+    <!--Book Repository Bean -->
     <bean id="bookRepository" class="com.library.repository.BookRepository"/>
 
-    <!-- Book Service Bean-->
+    <!-- Book Service Bean -->
     <bean id="bookService" class="com.library.service.BookService">
         <property name="bookRepository" ref="bookRepository"/>
     </bean>
-
 </beans>
