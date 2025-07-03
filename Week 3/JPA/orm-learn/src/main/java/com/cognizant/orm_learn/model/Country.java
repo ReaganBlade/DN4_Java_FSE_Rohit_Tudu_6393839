@@ -6,29 +6,37 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
 @Entity
-@Table(name="country")
+@Table(name = "country")
 public class Country {
-    @Id
-    @Column(name="co_code")
-    private String id;
 
-    @Column(name="co_name")
+    @Id
+    @Column(name = "co_code")
+    private String code;
+
+    @Column(name = "co_name")
     private String name;
 
-
-    public String getId() {
-        return id;
-    }
-
-    public void setId(String id) {
-        this.id = id;
+    // Getters
+    public String getCode() {
+        return code;
     }
 
     public String getName() {
         return name;
     }
 
+    // Setters
+    public void setCode(String code) {
+        this.code = code;
+    }
+
     public void setName(String name) {
         this.name = name;
+    }
+
+    // toString()
+    @Override
+    public String toString() {
+        return "Country [code=" + code + ", name=" + name + "]";
     }
 }
