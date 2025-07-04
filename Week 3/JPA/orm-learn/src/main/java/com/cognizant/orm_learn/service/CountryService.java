@@ -9,10 +9,21 @@ import java.util.List;
 
 @Service
 public class CountryService {
+
     @Autowired
     private CountryRepository countryRepository;
 
     public List<Country> getAllCountries() {
         return countryRepository.findAll();
     }
+
+    // Hands On 5 : Implement services for managing Country
+    public Country getCountryByCode(String code) {
+        return countryRepository.findById(code).orElse(null);
+    }
+
+    public void addCountry(Country country) {
+        countryRepository.save(country);
+    }
+
 }

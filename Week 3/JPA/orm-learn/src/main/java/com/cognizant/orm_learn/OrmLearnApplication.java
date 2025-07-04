@@ -19,7 +19,9 @@ public class OrmLearnApplication implements CommandLineRunner {
 	private CountryService countryService;
 
 	public static void main(String[] args) {
-		SpringApplication.run(OrmLearnApplication.class, args); // ✅ No need to get bean manually
+		SpringApplication.run(OrmLearnApplication.class, args);
+
+		// ✅ No need to get bean manually
 	}
 
 	@Override
