@@ -9,6 +9,13 @@ import jakarta.persistence.Table;
 @Table(name = "country")
 public class Country {
 
+    public Country () {}
+
+    public Country(String code, String name){
+        this.code = code;
+        this.name = name;
+    }
+
     @Id
     @Column(name = "co_code")
     private String code;
