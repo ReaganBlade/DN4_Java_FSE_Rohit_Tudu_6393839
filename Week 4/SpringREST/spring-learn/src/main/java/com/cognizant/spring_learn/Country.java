@@ -2,9 +2,13 @@
 
 package com.cognizant.spring_learn;
 
+import static com.cognizant.spring_learn.SpringLearnApplication.LOGGER;
+
 public class Country {
 
-    public Country(){}
+    public Country(){
+        LOGGER.debug("Inside Country Constructor");
+    }
 
     private String code;
     private String name;
@@ -28,5 +32,10 @@ public class Country {
 
     public String getName(){
         return name;
+    }
+
+    @Override
+    public String toString(){
+        return String.format("%s %s", code, name);
     }
 }
