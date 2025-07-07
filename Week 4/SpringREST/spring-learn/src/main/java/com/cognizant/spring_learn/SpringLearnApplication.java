@@ -17,13 +17,14 @@ import org.slf4j.LoggerFactory;
 public class SpringLearnApplication {
 
 //	Spring REST Hands On 3 (Incorporate Loggging)
-	private static final Logger LOGGER = LoggerFactory.getLogger(SpringLearnApplication.class);
+	public static final Logger LOGGER = LoggerFactory.getLogger(SpringLearnApplication.class);
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringLearnApplication.class, args);
 
 		// Method for Hands on 2
 		displayDate("31/12/2018");
+		displayCountry();
 	}
 
 	// Method for Hands on 2
@@ -41,6 +42,15 @@ public class SpringLearnApplication {
 
 //		Spring REST Hands On 3 (Incorporate Loggging)
 		LOGGER.info("Display Date: END");
+	}
 
+	// Spring REST Hands on 4 displayCountry()
+	public static void displayCountry(){
+		try (ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("country.xml")) {
+			Country country = context.getBean("country", Country.class);
+			LOGGER.debug("Country: {} {}", country.getCode(), country.getName());
+		} catch (Exception e) {
+			LOGGER.error("Error: {}", e.getMessage());
+		}
 	}
 }
