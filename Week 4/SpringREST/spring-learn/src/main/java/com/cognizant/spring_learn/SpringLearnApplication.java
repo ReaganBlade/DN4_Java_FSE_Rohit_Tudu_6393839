@@ -47,8 +47,12 @@ public class SpringLearnApplication {
 	// Spring REST Hands on 4 displayCountry()
 	public static void displayCountry(){
 		try (ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("country.xml")) {
-			Country country = context.getBean("country", Country.class);
-			LOGGER.debug("Country: {} {}", country.getCode(), country.getName());
+			Country country = context.getBean("in", Country.class);
+			LOGGER.info("Country: {}", country.toString());
+
+			Country country2 = context.getBean("us", Country.class);
+			LOGGER.info("Country: {}", country2.toString());
+
 		} catch (Exception e) {
 			LOGGER.error("Error: {}", e.getMessage());
 		}
