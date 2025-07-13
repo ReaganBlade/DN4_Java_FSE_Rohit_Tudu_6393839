@@ -39,7 +39,9 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .and()
                 .authorizeRequests()
                 .antMatchers("/countries")
-                .hasRole("USER");
+                .hasRole("USER")
+                .antMatchers("/authenticate")
+                .hasAnyRole("USER", "ADMIN");
     }
 
 }
