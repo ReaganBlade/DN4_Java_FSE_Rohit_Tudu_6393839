@@ -1,20 +1,15 @@
 spring:
   security:
+    jwt:
+      secret: 5367566B59703373367639792F423F4528482B4D6251655468576D5A71347437
     oauth2:
-      resource server:
-        jwt:
-          issuer-uri: https://issuer.example.com
       client:
         registration:
-          my-client:
-            client-id: YOUR_CLIENT_ID
-            client-secret: YOUR_CLIENT_SECRET
-            scope: openid, profile, email
-            authorization-grant-type: authorization_code
+          google:
+            client-id: ${GOOGLE_CLIENT_ID}
+            client-secret: ${GOOGLE_CLIENT_SECRET}
+            scope:
+              - openid
+              - profile
+              - email
             redirect-uri: "{baseUrl}/login/oauth2/code/{registrationId}"
-        provider:
-          my-provider:
-            authorization-uri: https://accounts.google.com/o/oauth2/auth
-            token-uri: https://oauth2.googleapis.com/token
-            user-info-uri: https://openidconnect.googleapis.com/v1/userinfo
-            user-name-attribute: sub
