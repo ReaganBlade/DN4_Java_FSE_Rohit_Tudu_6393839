@@ -1,0 +1,41 @@
+/* src/App.css */
+.App {
+  text-align: center;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.App.light {
+  background-color: #fff;
+  color: #000;
+}
+
+.App.dark {
+  background-color: #282c34;
+  color: white;
+}
+
+.App-header {
+  padding: 20px;
+}
+
+/* --- ADD THIS --- */
+/* Button styles based on theme */
+.btn {
+  padding: 8px 16px;
+  cursor: pointer;
+  margin: 5px;
+  border-radius: 4px;
+  font-size: 1em;
+}
+
+.btn-light {
+  color: #000;
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+}
+
+.btn-dark {
+  color: #fff;
+  background-color: #343a40;
+  border: 1px solid #495057;
+}
