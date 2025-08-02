@@ -61,7 +61,7 @@ const ComplainRegister = () => {
             required
           />
         </div>
-        <button type="submit" style={{ marginTop: '15px', padding: '10px 20px' }}>
+        <button type="submit" onSubmit={handleSubmit} style={{ marginTop: '15px', padding: '10px 20px' }}>
           Submit Complaint
         </button>
       </form>
