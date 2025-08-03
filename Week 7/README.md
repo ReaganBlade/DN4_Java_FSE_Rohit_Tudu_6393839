@@ -18,6 +18,9 @@ This project demonstrates the fundamental features of ES6 within a React applica
 * **Spread Operator (...):** Employed to merge two separate arrays of players (T20Players and RanjiTrophyPlayers) into a single array.  
 * **Conditional Rendering:** A simple if/else flag was used to toggle between displaying different component views on the home page.
 
+### Output:
+![cricketapp](Output/cricketapp.png)
+
 ## **2\. Project: officespacerentalapp (JSX and Styling)**
 
 *(HOL Document: 10\. ReactJS-HOL.docx)*
@@ -32,6 +35,9 @@ This project focuses on using JSX (JavaScript XML) to create and render elements
 * **JavaScript Expressions in JSX:** Embedded JavaScript variables and object properties directly within the JSX to display dynamic data (e.g., office name, rent, address).  
 * **Rendering to the DOM:** Used JSX to define the UI structure that gets rendered to the web page.  
 * **Inline CSS Styling:** Applied dynamic inline styles to an element. Specifically, the color of the rent text changes based on its value (red for rent \<= 60000, green otherwise).
+
+### Output:
+![officespacerentalapp](Output/officespacerentalapp.png)
 
 ## **3\. Project: eventexamplesapp (Event Handling)**
 
@@ -50,6 +56,9 @@ This application was built to explore and demonstrate various event handling mec
 * **SyntheticEvent:** Utilized React's cross-browser wrapper for native events to handle a click event.  
 * **Form Event Handling:** Implemented a handleSubmit function for the currency converter to process the conversion logic when a button is clicked.
 
+### Output:
+![eventexamplesapp](Output/eventexamplesapp.png)
+
 ## **4\. Project: ticketbookingapp (Conditional Rendering)**
 
 *(HOL Document: 12\. ReactJS-HOL.docx)*
@@ -66,6 +75,10 @@ This project demonstrates conditional rendering by creating a simple ticket book
 * **Component-Based Logic:** Created separate components for the LoginButton and LogoutButton, which trigger state changes in the parent component.  
 * **Props:** Passed down event handler functions (like onClick) from the parent component to the button components as props.
 
+### Output:
+![ticketbookingapp](Output/ticketbookingapp0.png)
+![ticketbookingapp](Output/ticketbookingapp1.png)
+
 ## **5\. Project: bloggerapp (Lists, Keys, and Advanced Conditional Rendering)**
 
 *(HOL Document: 13\. ReactJS-HOL.docx)*
@@ -81,3 +94,6 @@ This application showcases how to render lists of data and display multiple comp
 * **Component Extraction:** The logic for rendering each list was encapsulated within its own component.  
 * **Conditional Rendering Techniques:** This project was an opportunity to implement various methods of conditional rendering, solidifying the concepts from the previous labs.  
 * **Styling and Layout:** Used CSS classes to create a multi-column layout to display the different sections of content side-by-side.
+
+### Output:
+![bloggerapp](Output/bloggerapp.png)
